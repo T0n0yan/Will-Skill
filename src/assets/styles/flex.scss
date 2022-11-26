@@ -1,0 +1,41 @@
+
+.G-flex {
+  display: flex;
+}
+.G-center {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.G-justify-center {
+  justify-content: center;
+  display: flex
+}
+
+.G-justify-between {
+  justify-content: space-between;
+  display: flex;
+}
+.G-justify-evenly {
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.G-justify-end {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.G-align-center {
+  align-items: center;
+  display: flex;
+}
+
+.G-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+// #endregion

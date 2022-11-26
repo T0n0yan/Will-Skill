@@ -1,0 +1,171 @@
+@import '../../../../assets/styles/flex';
+@import '../../../../assets/styles/variables';
+@import '../../../../assets/styles/mixin';
+
+
+.L-products-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: $black;
+  .L-products-container {
+    width: 100%;
+    .L-product-title-cont {
+      padding-top: 50px;
+      width: 100%;
+      text-align: center;
+      font-size: $font-size-48;
+      letter-spacing: 1.5px;
+      @include screen-max-width-991 {
+        font-size: $font-size-40;
+      }
+      @include screen-max-width-767 {
+        font-size: $font-size-26;
+      }
+      @include screen-max-width-576 {
+        font-size: $font-size-14;
+      }
+      h3{
+        &:first-child{
+          color: $white;
+          padding-top: 10px;
+        }
+        &:last-child{
+          color: $orange;
+        }
+      }
+    }
+    .L-discount-price {
+      width: 100%;
+      text-align: center;
+      padding-top: 75px;
+      @include screen-max-width-576 {
+        padding-top: 30px;
+      }
+      p {
+        position: relative;
+        margin: 0 20px;
+        &:first-child{
+          color: $grey;
+          font-size: $font-size-36;
+          padding: 0 10px;
+          @include screen-max-width-576 {
+            font-size: $font-size-24;
+          }
+          &:before{
+            content: '';
+            position: absolute;
+            width: 100%;
+            top: 50%;
+            right: 0;
+            border: 1px solid $grey;
+          }
+        }
+        &:last-child{
+          font-size: $font-size-48;
+          color: $white;
+          @include screen-max-width-576 {
+            font-size: $font-size-30;
+          }
+        }
+      }
+    }
+    .L-item-container {
+      @include screen-max-width-991 {
+        display: flex;
+        flex-direction: column;
+      }
+      .L-item-box {
+        width: 30%;
+        justify-content: start;
+        margin-top: 30px;
+        @include screen-max-width-991 {
+          max-width: 991px;
+          width: 100%;
+        }
+        .L-item-description {
+          margin-top: 65px;
+          p {
+            text-align: center;
+            letter-spacing: 2px;
+            &:first-child {
+              color: $white;
+            }
+            &:last-child {
+              color: $orange;
+              padding-bottom: 30px;
+            }
+          }
+        }
+      }
+
+      .L-item-box-offer {
+        width: 39%;
+        position: relative;
+        height: 500px;
+        @include screen-max-width-991 {
+          max-width: 991px;
+          width: 100%;
+
+        }
+        @include screen-max-width-576 {
+          max-width: 576px;
+          width: 100%;
+        }
+        .L-offer-img {
+          position: absolute;
+          top: -70px;
+          width: 140px;
+          height: 408px;
+          transform: rotate(-90deg);
+          @include screen-max-width-576 {
+            top: 0;
+            max-width: 150px;
+            height: 300px;
+          }
+        }
+        .L-delivery-offer-desc {
+          text-align: center;
+          position: absolute;
+          top: 51%;
+          p {
+            color: white;
+            &:first-child {
+              font-size: $font-size-36;
+              line-height: 43px;
+              color: $white;
+              @include screen-max-width-576 {
+                font-size: $font-size-24;
+              }
+
+              &:before {
+                content: '+';
+                font-size: $font-size-36;
+                color: $white;
+                margin-right: 10px;
+              }
+            }
+            &:last-child {
+              color: $orange;
+              font-size: $font-size-24;
+              margin-top: 10px;
+              @include screen-max-width-576 {
+                font-size: $font-size-20;
+              }
+            }
+          }
+        }
+        .L-button-cont {
+          bottom: 44px;
+          position: absolute;
+          border: 1px solid;
+          button {
+            background-color: $orange;
+            padding: 16px 50px;
+            border-radius: 7px;
+            font-size: $font-size-18;
+          }
+        }
+      }
+    }
+  }
+}

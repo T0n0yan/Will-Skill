@@ -1,0 +1,40 @@
+@import "./variables";
+@import "./mixin";
+
+
+.G-pointer {
+  cursor: pointer;
+}
+.G-background {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+}
+.G-background-norepeat{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.G-background-right-50 {
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: right;
+}
+
+.G-hidden {
+  overflow: hidden;
+}
+
+.G-container {
+  max-width : 1440px;
+  width     : 100%;
+  padding   : 0 63px;
+  margin    : 0 auto;
+  @include screen-max-width-1200 {
+    padding : 0 40px;
+  }
+  @include screen-max-width-991{
+    padding: 0 25px;
+  }
+}
+
