@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Will-Skill/static/css/main.f9d5e495.css",
+    "main.js": "/Will-Skill/static/js/main.a708665f.js",
+    "static/media/ginger.svg": "/Will-Skill/static/media/ginger.e52eb4da60a253ff6ec710ebf2784c0d.svg",
+    "static/media/Lemon.svg": "/Will-Skill/static/media/Lemon.390a28d6e5163004639ab9a5a0a56455.svg",
+    "static/media/nootris.svg": "/Will-Skill/static/media/nootris.b06573e7d6d32de60cc3e2a7537f9322.svg",
+    "static/media/introducing_background.png": "/Will-Skill/static/media/introducing_background.94a8148bdf668e6c0c97.png",
+    "static/media/virus.svg": "/Will-Skill/static/media/virus.e1bdc863105981f93586daab85199c0f.svg",
+    "static/media/Rubik-Regular.ttf": "/Will-Skill/static/media/Rubik-Regular.974ab100afa4538622da.ttf",
+    "static/media/Rubik-Bold.ttf": "/Will-Skill/static/media/Rubik-Bold.12b9f128a901a8977a57.ttf",
+    "static/media/logo.svg": "/Will-Skill/static/media/logo.3c86d241fbb0ab7fc411e97a52a6c92e.svg",
+    "static/media/basket.svg": "/Will-Skill/static/media/basket.9a619b8ed4699338a22d1ecf113b6857.svg",
+    "index.html": "/Will-Skill/index.html",
+    "main.f9d5e495.css.map": "/Will-Skill/static/css/main.f9d5e495.css.map",
+    "main.a708665f.js.map": "/Will-Skill/static/js/main.a708665f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9d5e495.css",
+    "static/js/main.a708665f.js"
+  ]
+}
